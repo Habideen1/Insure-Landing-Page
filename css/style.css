@@ -1,0 +1,173 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+/* header */
+.navbar .hyper-links a{
+    font-size: 10px;
+    color: gray;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.navbar .hyper-links button{
+    margin-left: 25px;
+    padding: 8px 15px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span{
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+}
+/* header */
+
+
+/* section 1 */
+.section1 {
+    background-color: hsl(256, 26%, 20%);
+    height: 400px;
+    padding-top: 50px;
+}
+
+hr.line-1{
+    width: 100px;
+    margin-left: 100px;
+}
+
+.section1 .content{
+    margin-left: 100px;
+    font-size: x-large;
+    color: #fff;
+}
+
+.section1 .para{
+    margin: 5px 100px;
+    color: #fff;
+}
+
+.section1 img{
+    float: right;
+    margin-right: 250px;
+}
+
+.section1 button{
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    border-color: #fff;
+    padding: 5px 15px;
+    font-size: 10px;
+    margin: 10px 100px;
+}
+/* end-section 1 */
+
+
+ /* section 2 */
+hr.horizontal{
+    margin-top: 200px;
+    width: 100px;
+    margin-left: 100px;
+ }
+
+.text-one{
+    font-size: 40px;
+    margin: 50px 100px 30px 100px;
+}
+
+.container{
+    display: flex;
+    margin: 100px 200px 150px 100px;
+    gap: 200px;
+}
+
+.container .icon-snappy p, .icon-prices p, .icon-people p{
+    font-size: 15px;
+    color: gray;
+}
+/* end-section 2 */
+
+/* section-3 */
+.section-3{
+    background-color: hsl(256, 26%, 20%);
+    height: 230px;
+    margin: 100px 100px;
+}
+
+.section-3 .heading{
+    color: #fff;
+    padding: 25px 50px 25px 80px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.section-3 button{
+    float: right;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    border-color: white;
+    padding: 8px 15px;
+    font-size: 10px;
+    margin: 100px;
+}
+/* end-section 3 */
+
+
+/* footer */
+.flex-container{
+    background-color: ghostwhite;
+    height: 300px;
+}
+
+.flex-container .items-1{
+    float: right;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.flex-container .items-2{
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.items-1 .twitter{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.items-1 .pinterest{
+    padding-right: 10px;
+}
+
+hr{
+    width: 85%;
+    margin-top: 30px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.container .first-list span{
+    font-size: 10px;
+    color: gray;
+}
+
+.container .first-list ul{
+    color: #000;
+    padding-left: 1px;
+    list-style: none;
+    font-size: 10px;
+    line-height: 1.5rem;
+}
